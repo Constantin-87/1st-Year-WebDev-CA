@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<!--Written by Constantin Gavrila 1 to 35 and jamel boumazouna ** to **-->
+<html lang="en">
+	<head>
+		<!--Declaring the encoding of the page so that all characters are correctly interpreted-->
+		<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+		<!--Page Title-->
+		<title>Wakey-Racers | Image Gallery</title>
+		<!--Setting the viewport-->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<!--Bootstrap link-->
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+		<!--Css link-->
+		<link rel="stylesheet" href="style.css">
+		<!--JavaScript link-->
+		<script src="external.js"></script>
+		<!--Google Fonts-->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>		
+		<link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Ubuntu:wght@700&display=swap" rel="stylesheet">
+	</head>
+
+	<body>
+		<!--Wrapper holding the page centered-->
+		<div class="wrapper">			
+			<!-- Banner card -->
+			<div class="card">
+				<!-- Banner image -->
+				<img src="images/banner.jfif" class="card-img-top" alt="banner">
+				<!-- Banner navbar -->
+				<nav class="nav nav-pills navbar-dark bg-dark flex-column flex-sm-row">
+					<a class="flex-sm-fill text-sm-center nav-link" href="index.html">Home Page</a>
+					<a class="flex-sm-fill text-sm-center nav-link active" aria-current="page" href="gallery.html">Photo Gallery</a>
+					<a class="flex-sm-fill text-sm-center nav-link" href="regPage.html">Register</a>
+				</nav>
+			</div>
+			<!--Written by Constantin Gavrila 1 to 35 and 109 to 110-->
+			<!--Written by Jamel boumazouna 36 to 104-->
+			<!-- site referenced https://www.w3schools.com/howto/howto_js_slideshow.asp -->
+
+			<!-- Slideshow container -->
+			<div class="slideshow-container">
+
+				<!-- Full-width images with slide numbers -->
+				<div class="mySlides">
+					<div class="numbertext">1 / 6</div>
+					<img src="images/slideshow1.png" style="width:100%" alt="a gray Audi A5 Coupe" onclick="myFunction(this);">
+				</div>
+
+				<div class="mySlides">
+					<div class="numbertext">2 / 6</div>
+					<img src="images/slideshow2.png" style="width:100%" alt="a silver Mercedes-AMG SL63" onclick="myFunction(this);">
+				</div>
+
+				<div class="mySlides">
+					<div class="numbertext">3 / 6</div>
+					<img src="images/slideshow3.png" style="width:100%" alt="a bright red Ferrari Enzo" onclick="myFunction(this);">
+				</div>
+
+				<div class="mySlides">
+					<div class="numbertext">4 / 6</div>
+					<img src="images/slideshow4.png" style="width:100%" alt="a silver Mercedes AMG GT s" onclick="myFunction(this);">
+				</div>
+			  
+				<div class="mySlides">
+					<div class="numbertext">5 / 6</div>
+					<img src="images/slideshow5.png" style="width:100%" alt="a black BMW I8 Roadster" onclick="myFunction(this);">
+				</div>
+			  
+				<div class="mySlides">
+					<div class="numbertext">6 / 6</div>
+					<img src="images/slideshow6.png" style="width:100%" alt="a silver Jaguar F-Type Coupe Auto P300" onclick="myFunction(this);">
+				</div>
+			  
+				<!-- Next and previous buttons with audio on click -->
+				<a class="prev" onclick="plusSlides(-1);play();">&#8249;</a>
+				<a class="next" onclick="plusSlides(1);play();">&#8250;</a>
+				<audio id="audio" src="sounds/carIgnition.WAV"></audio>
+				
+			</div>
+			
+			<!-- The expanding image container -->
+			<div class="container">
+				<!-- Close the image -->
+				<span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+				<!-- Expanded image -->
+				<img id="expandedImg" style="width:100%">
+				<!-- Image text -->
+				<div id="imgtext"></div>
+			</div>
+			
+			<br>
+
+			<!-- The dots/circles -->
+		`	<div style="text-align:center">
+				<span class="dot" onclick="currentSlide(1)"></span>
+				<span class="dot" onclick="currentSlide(2)"></span>
+				<span class="dot" onclick="currentSlide(3)"></span>
+				<span class="dot" onclick="currentSlide(4)"></span>
+				<span class="dot" onclick="currentSlide(5)"></span>
+				<span class="dot" onclick="currentSlide(6)"></span>
+			</div>
+
+			<!-- a fix to my slideshow images not showing due to slideindex loading order -->
+			<script>
+				showSlides(slideIndex);
+			</script>
+									
+		</div>
+		<!--Bootstrap script-->
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+	</body>
+</html>
+<!--Written by Constantin Gavrila 1 to 35 and ** to **-->
