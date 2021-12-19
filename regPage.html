@@ -1,11 +1,13 @@
 <!DOCTYPE html>
-<!--Written by Constantin Gavrila (1 to 170)-->
+<!--Written by Constantin Gavrila (1 to 174)-->
 <html lang="en">
 	<head>
 		<!--Declaring the encoding of the page so that all characters are correctly interpreted-->
 		<meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
 		<!--Page Title-->
 		<title>Wakey-Racers | Registration Page</title>
+		<!--Adding page description-->
+		<meta name="description" content="Register for one in a life time oportunity to feel the adrenaline rush of a race driver. Or, register for one of our races and take the grand prize!">
 		<!--Setting the viewport-->
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<!--Bootstrap link-->
@@ -25,7 +27,7 @@
 			<!-- Banner card -->
 			<div class="card">
 				<!-- Banner image -->
-				<img src="images/banner.jfif" class="card-img-top" alt="banner" title="Banner">
+				<img src="images/banner.webp" class="card-img-top" alt="banner" title="Banner">
 				<!-- Banner navbar -->
 				<nav class="nav nav-pills navbar-dark bg-dark flex-column flex-sm-row">
 					<a class="flex-sm-fill text-sm-center nav-link" href="index.html">Home Page</a>
@@ -37,10 +39,10 @@
 			<!--Participant/Spectator buttons-->
 			<div class="row">													
 				<div class="col-sm-6">
-					<input type="image" src="images/buyTickets.png" class="btTxt submit" id="buyTickets" onmouseover="buyTicketsLight()" onmouseleave="normalTickets()" onclick="showSpectator()" alt="Purchase Admission tickets" title="Purchase Admission tickets"/>
+					<input type="image" src="images/buyTickets.webp" class="btTxt submit" id="buyTickets" onmouseover="buyTicketsLight()" onmouseleave="normalTickets()" onclick="showSpectator()" alt="Purchase Admission tickets" title="Purchase Admission tickets"/>
 				</div>		
 				<div class="col-sm-6">
-					<input type="image" src="images/regAsDriver.png" class="btTxt submit" id="regAsDriver" onmouseover="regAsDriverLight()" onmouseleave="normalDriver()" onclick="showRacer()" alt="Register for the event" title="Register for the event"/>
+					<input type="image" src="images/regAsDriver.webp" class="btTxt submit" id="regAsDriver" onmouseover="regAsDriverLight()" onmouseleave="normalDriver()" onclick="showRacer()" alt="Register for the event" title="Register for the event"/>
 				</div>						
 			</div>			
 			<br>
@@ -53,27 +55,27 @@
 					<div class="col-sm-2">
 						<label for="drift" class="thumbnailTitle">Drifting Experience</label>
 						<br>
-						<input type="image" src="images/drift.png" class="img-thumbnail" id="drift" onclick="driftV()" alt="Car drifting" title="Drift Experience"/>
+						<input type="image" src="images/drift.webp" class="img-thumbnail" id="drift" onclick="driftV()" alt="Car drifting" title="Drift Experience"/>
 					</div>
 					<div class="col-sm-2">
 						<label for="dtmRace" class="thumbnailTitle">DTM Experience</label>
 						<br>
-						<input type="image" src="images/dtmRace.png" class="img-thumbnail" id="dtmRace" onclick="raceV()" alt="Car on DTM circuit" title="DMT Experience"/>
+						<input type="image" src="images/dtmRace.webp" class="img-thumbnail" id="dtmRace" onclick="raceV()" alt="Car on DTM circuit" title="DMT Experience"/>
 					</div>					
 					<div class="col-sm-2">
 						<label for="grandPrix" class="thumbnailTitle">Grand Prix</label>
 						<br>
-						<input type="image" src="images/grandPrix.png" class="img-thumbnail" id="grandPrix" onclick="grandPrixV()" alt="Grand Prix Image" title="Grand Prix Tickets"/>
+						<input type="image" src="images/grandPrix.webp" class="img-thumbnail" id="grandPrix" onclick="grandPrixV()" alt="Grand Prix Image" title="Grand Prix Tickets"/>
 					</div>						
 					<div class="col-sm-2">
 						<label for="karting" class="thumbnailTitle">Karting</label>
 						<br>
-						<input type="image" src="images/karting.png" class="img-thumbnail" id="karting" onclick="karting()" alt="Kart on race track" title="Karting Race"/>
+						<input type="image" src="images/karting.webp" class="img-thumbnail" id="karting" onclick="karting()" alt="Kart on race track" title="Karting Race"/>
 					</div>					
 					<div class="col-sm-2">
 						<label for="showRoom" class="thumbnailTitle">Showroom</label>
 						<br>
-						<input type="image" src="images/showRoom.png" class="img-thumbnail" id="showRoom" onclick="showRoomV()" alt="ShowRoom image" title="Showroom Tickets"/>
+						<input type="image" src="images/showRoom.webp" class="img-thumbnail" id="showRoom" onclick="showRoomV()" alt="ShowRoom image" title="Showroom Tickets"/>
 					</div>					
 					<div class="col-sm-1"></div>				
 				</div>
@@ -85,27 +87,27 @@
 					<div class="col-sm-2">
 						<label for="droneR" class="thumbnailTitle">Drone Race</label>
 						<br>
-						<input type="image" src="images/droneR.png" class="img-thumbnail" id="droneR" onclick="droneR()" alt="Drone image" title="Drone Race"/>
+						<input type="image" src="images/droneR.webp" class="img-thumbnail" id="droneR" onclick="droneR()" alt="Drone image" title="Drone Race"/>
 					</div>					
 					<div class="col-sm-2">
 						<label for="driftR" class="thumbnailTitle">Drift Race</label>
 						<br>
-						<input type="image" src="images/driftR.png" class="img-thumbnail" id="driftR" onclick="driftR()" alt="Drift image" title="Drift race"/>
+						<input type="image" src="images/driftR.webp" class="img-thumbnail" id="driftR" onclick="driftR()" alt="Drift image" title="Drift race"/>
 					</div>										
 					<div class="col-sm-2">
 						<label for="dragR" class="thumbnailTitle">Drag Race</label>
 						<br>
-						<input type="image" src="images/dragR.png" class="img-thumbnail" id="dragR" onclick="dragR()" alt="Drag image" title="Drag race"/>
+						<input type="image" src="images/dragR.webp" class="img-thumbnail" id="dragR" onclick="dragR()" alt="Drag image" title="Drag race"/>
 					</div>
 					<div class="col-sm-2">
 						<label for="dtmRaceR" class="thumbnailTitle">DTM Grand Prix</label>
 						<br>
-						<input type="image" src="images/raceR.png" class="img-thumbnail" id="dtmRaceR" onclick="dtmRaceR()" alt="DTM image" title="DTM race"/>
+						<input type="image" src="images/raceR.webp" class="img-thumbnail" id="dtmRaceR" onclick="dtmRaceR()" alt="DTM image" title="DTM race"/>
 					</div>					
 					<div class="col-sm-2">
 						<label for="showRoomR" class="thumbnailTitle">Showroom</label>
 						<br>
-						<input type="image" src="images/showRoom.png" class="img-thumbnail" id="showRoomR" onclick="showRoomR()" alt="Showroom image" title="Showroom Expo"/>
+						<input type="image" src="images/showRoom.webp" class="img-thumbnail" id="showRoomR" onclick="showRoomR()" alt="Showroom image" title="Showroom Expo"/>
 					</div>				
 					<div class="col-sm-1"></div>					
 				</div>
@@ -169,4 +171,4 @@
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 	</body>
 </html>
-<!--Written by Constantin Gavrila (1 to 170)-->
+<!--Written by Constantin Gavrila (1 to 174)-->

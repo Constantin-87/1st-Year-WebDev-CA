@@ -1,11 +1,13 @@
 <!DOCTYPE html>
-<!--Written by Constantin Gavrila 1 to 35 and ** to **-->
+<!--Written by Constantin Gavrila 1 to 39 and ** to **-->
 <html lang="en">
 	<head>
 		<!--Declaring the encoding of the page so that all characters are correctly interpreted-->
 		<meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
 		<!--Page Title-->
 		<title>Wakey-Racers | Home</title>
+		<!--Adding page description-->
+		<meta name="description" content="Each year, home of the fastest cars in the world, Wakey-Racers is gathering tousands of visitors, come and be a part of something unforgettable">
 		<!--Setting the viewport-->
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<!--Bootstrap link-->
@@ -20,13 +22,13 @@
 		<link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Ubuntu:wght@700&display=swap" rel="stylesheet">	
 	</head>
 
-	<body>
+	<body onload = "game()">
 		<!--Wrapper holding the page centered-->
 		<div class="wrapper">
 			<!-- Banner card -->
 			<div class="card">
 				<!-- Banner image -->
-				<img src="images/banner.jfif" class="card-img-top" alt="banner">
+				<img src="images/banner.png" class="card-img-top" alt="banner">
 				<!-- Banner navbar -->
 				<nav class="nav nav-pills navbar-dark bg-dark flex-column flex-sm-row">
 					<a class="flex-sm-fill text-sm-center nav-link active" aria-current="page" href="index.html">Home Page</a>
@@ -34,17 +36,61 @@
 					<a class="flex-sm-fill text-sm-center nav-link" href="regPage.html">Register</a>
 				</nav>
 			</div>
-			<!--Written by Constantin Gavrila 1 to 35 and ** to **-->
-			<!--Written by Conor 36 to **-->
-			<!--Conor place your content in the div below!!!-->
+			<!--Written by Constantin Gavrila 1 to 39 and ** to **-->
+			<!--Written by Conor 41 to 189-->
 			<div>
-			
+				<br>
+				<p class="indextext">Welcome to wakey-racers, this is a community page for racing fans made by racing fans. <br>throughout our various pages you can find a variety of racing related segments that might<br> peak your interest whether it be pictures of expensive cars from car shows or even<br> signing up for various racing events as a viewer or even a participant. We are inclusive to most<br> types of racing so it doesn't matter if you race cars or drones there will be stuff here for you.
+				</p>
+				<br><br>
+				<h1 class="quiz">Quiz</h1><br>
+				<p class="indextext">Here is a fun little quiz you can play to see how knowledgeable you are on the major car brands</p><br>
+				
+				<h4 class="indextitles">Q1: Who was the first major car brand?</h4>
+				<form>
+					<input type="radio" id="opt1a" name="quiz1" value="OPT1A"><!--option will be checked automaticaly, this should stop invalid enterys-->
+						<label for="opt1a"><span id="brands1" class="indextext"></span></label><br><br><!--my randomiseation attemt is meant to be within the span but it does not work-->
+					<input type="radio" id="opt2a" name="quiz1" value="OPT2A">
+						<label for="opt2a" class="indextext">Ford</label><br><br>
+					<input type="radio" id="opt3a" name="quiz1" value="OPT3A">
+						<label for="opt3a"><span id="brands2" class="indextext"></span></label><br><br>
+				</form> 
+				
+				<h4 class="indextitles">Q2: Which one of these brands has a track on top of their plant?</h4>
+				<form>
+					<input type="radio" id="opt1b" name="quiz2" value="OPT1B">
+						<label for="opt1b" class="indextext">Fiat</label><br><br>
+					<input type="radio" id="opt2b" name="quiz2" value="OPT2B">
+						<label for="opt2b"><span id="brands3" class="indextext"></span></label><br><br>
+					<input type="radio" id="opt3b" name="quiz2" value="OPT3B">
+						<label for="opt3b"><span id="brands4" class="indextext"></span></label><br><br>
+				</form>
+				
+				<h4 class="indextitles">Q3: Which one of these manufacturers made the seatbelt?</h4>
+				<form>
+					<input type="radio" id="opt1" name="quiz3" value="OPT1C">
+						<label for="opt1c"><span id="brands5" class="indextext"></span></label><br><br>
+					<input type="radio" id="opt2c" name="quiz3" value="OPT2C">
+						<label for="opt2c" class="indextext">Volvo</label><br><br>
+					<input type="radio" id="opt3c" name="quiz3" value="OPT3C">
+						<label for="opt3c"><span id="brands6" class="indextext"></span></label><br><br>
+				</form>
+				
+				<h4 class="indextitles">Q4: Which one of these manufacturers started by making tractors?</h4>
+				<form>
+					<input type="radio" id="opt1d" name="quiz4" value="OPT1D">
+						<label for="opt1d"><span id="brands7" class="indextext"></span></label><br><br>
+					<input type="radio" id="opt2d" name="quiz4" value="OPT2D">
+						<label for="opt2d"><span id="brands8" class="indextext"></span></label><br><br>
+					<input type="radio" id="opt3d" name="quiz4" value="OPT3D">
+						<label for="opt3d" class="indextext">Lamborghini</label><br>
+						<br><input type="submit" value="Submit" onclick="gameFunction()">
+				</form>
 			</div>
-			<!--Written by Conor 36 to **-->
 		<!--Written by Constantin Gavrila 1 to 35 and ** to **-->				
 		</div>
 	<!--Bootstrap script-->
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 	</body>
 </html>
-<!--Written by Constantin Gavrila 1 to 35 and ** to **-->
+<!--Written by Constantin Gavrila 1 to 39 and ** to **-->

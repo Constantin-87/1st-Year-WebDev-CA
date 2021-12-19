@@ -1,13 +1,16 @@
-/*Written by Constantin Gavrila (1 to 112)*/
+/*Written by Constantin Gavrila (1 to 89)*/
 
 /*
 font-family: 'Nanum Gothic', sans-serif; //for text
 font-family: 'Ubuntu', sans-serif; //for headlines or buttons
 */
-
+.card-img-top{
+	width: 100%;
+	height: 100%;
+}
 /*Style applied to body*/
 body{
-	background-image: url("images/background.jpg");
+	background-image: url("images/background.webp");
 	background-repeat: repeat;
 }
 /*Style applied to the wrapper holding the entire page centered*/
@@ -84,7 +87,7 @@ body{
 	text-align: center;
 	color: #FBC02D;
 }
-/*Written by jamel boumazouna (86 to 188)*/
+/*Written by jamel boumazouna (90 to 192)*/
 /*Style applied to gallery page*/
 
 /* Slideshow container */
@@ -164,7 +167,7 @@ body{
 /* Closable button inside the image */
 .closebtn {
   position: absolute;
-  top: 10px;
+  top: -15px; 
   right: 15px;
   color: white;
   font-size: 35px;
@@ -185,4 +188,20 @@ body{
 /*makes current active dot different colour*/
 .active, .dot:hover {
   background-color: #D6D6D3;
+}
+/*Written by jamel boumazouna (90 to 192)*/
+
+.indextext {/*193 and below by conor oneill */
+	font-family: "Nanum Gothic", sans-serif;
+	font-size: 24px;
+	text-align:center
+}
+.indextitles {
+	font-family: 'Ubuntu', sans-serif;
+	
+}
+.quiz {
+	font-family: 'Ubuntu', sans-serif;
+	color: #FBC02D;
+	text-align: center;
 }

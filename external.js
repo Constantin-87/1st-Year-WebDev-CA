@@ -2,16 +2,16 @@
 
 //functions to alternate between dark and light registration buttons
 function buyTicketsLight(){
-	document.getElementById("buyTickets").setAttribute("src", "images/buyTickets2.png");
+	document.getElementById("buyTickets").setAttribute("src", "images/buyTickets2.webp");
 }
 function regAsDriverLight(){
-	document.getElementById("regAsDriver").setAttribute("src", "images/regAsDriver2.png");
+	document.getElementById("regAsDriver").setAttribute("src", "images/regAsDriver2.webp");
 }
 function normalTickets(){
-	document.getElementById("buyTickets").setAttribute("src", "images/buyTickets.png");
+	document.getElementById("buyTickets").setAttribute("src", "images/buyTickets.webp");
 }
 function normalDriver(){
-	document.getElementById("regAsDriver").setAttribute("src", "images/regAsDriver.png");
+	document.getElementById("regAsDriver").setAttribute("src", "images/regAsDriver.webp");
 }
 
 //functions designed to show available options once the button is clicked
@@ -110,7 +110,7 @@ function validate(){
 		window.location="index.html";
 	}
 }
-//Written by jamel boumazouna (112 to 157)
+//Written by jamel boumazouna (113 to 157)
 //initalise variable as 1 and shows first slide
 var slideIndex = 1;
 showSlides(slideIndex);
@@ -156,3 +156,57 @@ function myFunction(imgs) {
         var audio = document.getElementById("audio");
         audio.play();
       }
+//Written by jamel boumazouna (113 to 159)
+
+function game (){//160 and bellow by conor
+var brand1 = ["Saab", "BMW", "Ferrari", "Porsche", "Honda", "Toyota", "Porsche" , "Bently", "Maserati", "Audi", "Jeep"];//this repeating set of code is establishing random posible answers for the quiz to use
+var brands1 = brand1[Math.floor(Math.random()*brand1.length)];
+document.getElementById("brands1").innerHTML = brands1;
+					
+var brand2 = ["Saab", "BMW", "Ferrari", "Porsche", "Honda", "Toyota", "Porsche" , "Bently", "Maserati", "Audi", "Jeep"];
+var brands2 = brand2[Math.floor(Math.random()*brand2.length)];
+document.getElementById("brands2").innerHTML = brands2;
+
+var brand3 = ["Saab", "BMW", "Ferrari", "Porsche", "Honda", "Toyota", "Porsche" , "Bently", "Maserati", "Audi", "Jeep"];
+var brands3 = brand3[Math.floor(Math.random()*brand3.length)];
+document.getElementById("brands3").innerHTML = brands3;
+					
+var brand4 = ["Saab", "BMW", "Ferrari", "Porsche", "Honda", "Toyota", "Porsche" , "Bently", "Maserati", "Audi", "Jeep"];
+var brands4 = brand4[Math.floor(Math.random()*brand4.length)];
+document.getElementById("brands4").innerHTML = brands4;
+					
+var brand5 = ["Saab", "BMW", "Ferrari", "Porsche", "Honda", "Toyota", "Porsche" , "Bently", "Maserati", "Audi", "Jeep"];
+var brands5 = brand5[Math.floor(Math.random()*brand5.length)];
+document.getElementById("brands5").innerHTML = brands5;
+					
+var brand6 = ["Saab", "BMW", "Ferrari", "Porsche", "Honda", "Toyota", "Porsche" , "Bently", "Maserati", "Audi", "Jeep"];
+var brands6 = brand6[Math.floor(Math.random()*brand6.length)];
+document.getElementById("brands6").innerHTML = brands6;
+					
+var brand7 = ["Saab", "BMW", "Ferrari", "Porsche", "Honda", "Toyota", "Porsche" , "Bently", "Maserati", "Audi", "Jeep"];
+var brands7 = brand7[Math.floor(Math.random()*brand7.length)];
+document.getElementById("brands7").innerHTML = brands7;
+					
+var brand8 = ["Saab", "BMW", "Ferrari", "Porsche", "Honda", "Toyota", "Porsche" , "Bently", "Maserati", "Audi", "Jeep"];
+var brands8 = brand8[Math.floor(Math.random()*brand8.length)];
+document.getElementById("brands8").innerHTML = brands8;
+					
+}
+
+function gameFunction() {
+	var corectanswers = 0;				
+	
+	if(document.getElementById("opt2a").checked){//199 and bellow was helped by contantin
+		corectanswers++;
+	}
+	if(document.getElementById("opt1b").checked){
+		corectanswers++;
+	}
+	if(document.getElementById("opt2c").checked){
+		corectanswers++;
+	}
+	if(document.getElementById("opt3d").checked){
+		corectanswers++;
+	}
+	window.alert("You got " +corectanswers+ " correct answers");
+}//+ corectanswers   document.getElementById('corectanswers').value;
